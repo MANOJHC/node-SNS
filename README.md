@@ -16,7 +16,7 @@ no dependencies outside of node's standard library.
           really only rely on the version of `node-sns` in `npm`, as
           I'll only ever push stable and tested code there.
 
-          ## Initialization
+ ## Initialization
 
 Access to the API is done through a AWS object.  It's instantiated
 like so:
@@ -27,8 +27,9 @@ var sns = require('node-sns');
         secretAccessKey: "**SecretAccessKey**",
         region: "**AWS-Region**"  
     });
-    ```
-    ## Sending SMS
+```
+
+## SendingSMS
 
 Sends a simple plain-text SMS.  This also allows for slightly easier Way
 ```js
