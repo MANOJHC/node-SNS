@@ -1,5 +1,5 @@
 {
-  "name": "node-sns",
+  "name": "aws-node-sns",
   "version": "0.0.1",
   "description": "node module to send the SMS using AWS Module",
   "main": "index.js",

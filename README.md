@@ -1,10 +1,10 @@
-# node-SNS
+# aws-node-sns
 This library provides simple access to AWS SNS API for node.js applications.
 It's MIT licensed, and being used in production .
 ## Installation
 
 ```sh
-$ npm install node-sns
+$ npm install aws-node-sns
 ```
 
 Or you can just throw `sns.js` into your application.  There are
@@ -13,7 +13,7 @@ no dependencies outside of node's standard library.
 **Note:** `master` on Github is going to be untested/unstable at times,
           as this is a small enough library that I don't want to bother
           with a more complicated repo structure.  As such, you should
-          really only rely on the version of `node-sns` in `npm`, as
+          really only rely on the version of `aws-node-sns` in `npm`, as
           I'll only ever push stable and tested code there.
 
  ## Initialization
@@ -21,7 +21,7 @@ no dependencies outside of node's standard library.
 Access to the API is done through a AWS object.  It's instantiated
 like so:
 ```js
-var sns = require('node-sns');
+var sns = require('aws-node-sns');
     sns.createClient({       
         accessKeyId: "**AccessKey**",
         secretAccessKey: "**SecretAccessKey**",
