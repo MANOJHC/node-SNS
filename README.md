@@ -1,4 +1,5 @@
 # aws-node-sns
+![npm](https://img.shields.io/npm/v/aws-node-sns?label=aws-node-sns&logo=npm&style=for-the-badge)
 This library provides simple access to AWS SNS API for node.js applications.
 It's MIT licensed, and being used in production .
 ## Installation
