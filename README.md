@@ -1,7 +1,8 @@
 # aws-node-sns
-![npm](https://img.shields.io/npm/v/aws-node-sns?label=aws-node-sns&logo=npm&style=for-the-badge)
-![npmDownloads](https://img.shields.io/jsdelivr/npm/hw/aws-node-sns?label=downloads&logo=npm&style=for-the-badge)
+![npm](https://img.shields.io/npm/v/aws-node-sns?label=aws-node-sns&logo=npm&style=for-the-badge)              
+![npmDownloads](https://img.shields.io/jsdelivr/npm/hw/aws-node-sns?label=downloads&logo=npm&style=for-the-badge)               
 ![npmlicensed](https://img.shields.io/npm/l/aws-node-sns?label=MIT&logo=npm&style=for-the-badge)
+              
 This library provides simple access to AWS SNS API for node.js applications.
 It's MIT licensed, and being used in production .
 ## Installation
