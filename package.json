@@ -1,0 +1,31 @@
+{
+  "name": "node-sns",
+  "version": "0.0.1",
+  "description": "node module to send the SMS using AWS Module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MANOJHC/node-SNS.git"
+  },
+  "keywords": [
+    "SNS",
+    "SMS",
+    "AWS",
+    "node-SNS",
+    "AWS-SendSMS",
+    "TransactionalSMS",
+    "PromotionalSMS"
+  ],
+  "author": "Manoj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MANOJHC/node-SNS/issues"
+  },
+  "homepage": "https://github.com/MANOJHC/node-SNS#readme",
+  "dependencies": {
+    "aws-sdk": "^2.696.0"
+  }
+}
