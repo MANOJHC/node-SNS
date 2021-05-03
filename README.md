@@ -66,7 +66,7 @@ This message-level setting overrides your default message type, which you set on
 As per AWS Documentation  To Send Same SMS to Multiple Devices First We need to Create Topic . Later We need to add Subscribers . 
 Once Subscribers Added We Can Publish the Topic . On Publish of Topic the SMS Will reach to Multiple Devices
 
-Sending SMS to Multiple Devices using AWS SNS was a Very Painfull Process that Process , we have Simplified to as much as Possible 
+Sending SMS to Multiple Devices using AWS SNS was a Very Painfull Process . That Process , we have Simplified to as much as Possible 
 
 ## Create a Topic And Add Subscribers
 
@@ -97,7 +97,7 @@ Once this Function Executed the topic will be Creted & List of Recipants will  b
 
 ## Get a List of Subscribers 
 
-To Verify the List of Subscribers added to the Topic Successfull , We can Fetch the Suscribers List using Provided Function
+To Verify the List of Subscribers added to the Topic is Successfull , We can Fetch the Suscribers List using Provided Function
 
 
 ```js
@@ -119,7 +119,7 @@ sns.listSubscribers ('TopicID' , function(eror , data) {
 
 ## Publish And Delete Topic 
 
-This Function Will Pulish the Topic & We will delte the Topic using Boolean
+This Function Will Publish the Topic & We will delete the Topic using Boolean
 
 ```js
 
@@ -137,7 +137,7 @@ sns.publishanddeletetopic("TopicID" , 'Message' ,'Boolean' , function(error , da
 
 * `Message` - Message Body Text (Message You Need to Publish to Multiple People); this should be a string;
 
-* `Boolean` -  The Boolean Value Will be true or False 
-                if the Value is true We will Delete the Provided Topics 
-                if the Value is false We will not Delete the Provided Topics
+* `Boolean` -  The Boolean Value Will be **true** or **False** .
+                if the Value is **true** We will **Delete** the Provided Topics .
+                if the Value is **false** We will not **Delete** the Provided Topics.
 
